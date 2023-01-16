@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+#encabezado {
+    display: flex;
+    flex-direction: column;
+}
+
+    #contacto {
+        color:#1f2937;
+        display: flex;
+        gap: 20px;
+    }
+        .contacto2{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            flex: 1 1 1;
+
+        }
+            .links{
+                margin: 20px;
+            }
+                a { 
+                    color: inherit; 
+                    text-decoration: none;
+                }   
+                a:hover {
+                    color:#00A0C6; 
+                    text-decoration:none; 
+                    cursor:pointer;  
+                }
+
+    .espacio-blanco {
+        width: 300px;
+        height: 100px;
+        display: block;
+    }
+
+    .contenedor-foto {
+        position: absolute;
+        top: 10px;
+        left: 50px; 
+        }
+        #foto {
+            display: block;
+            border: black 1px solid;
+            width: 200px;
+            height: 200px;
+            border-radius: 50px;
+            }
+
+    #nombre {
+        background-color: #1f2937;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        font-size: large;
+        display: flex;
+        gap: 15px;
+    }
+        h1{
+            text-align: center;
+        }
+
+.seccion{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    gap: 30px;
+}
+    .titulo{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 250;
+        margin-left: 50px;
+        width: 350px;
+        height: 50px;
+        padding: -10px;
+    }
+    .descripcion{
+        width: 1000px;
+        display: block;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+    }
+        .descripcion-revelada {
+            opacity: 1;
+            transition: opacity 2s ease-in;
+        }
+
+    
+.separador{
+    display: block;
+    height: 5px;
+    background-color: lightblue;
+    margin: 10px;
+    width: 1243px;
+    margin-left: 59px;
+}
+
+button{
+    border-radius: 100px;
+    border: 0px;
+    padding: 0px;
+}
+
+.boton{
+    transition-property:transform ;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    padding: 10px;
+}
+    .boton-girado{
+        transform: rotate(90deg);
+        transition-property: transform;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1s;
+    }
+
+
+
+

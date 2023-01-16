@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae TICMAS</title>
+
+    <link rel='stylesheet' href='style.css'/>
+    <!-- Estos links incluyen el font Roboto de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); </style>
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    <!-- Este link incluye los iconos de font awesome-->
+    <script src="https://kit.fontawesome.com/c9ff92738d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="encabezado">
+        <div id="contacto">
+            <div class="contenedor-foto">
+                <img src="https://randomuser.me/api/portraits/women/18.jpg" alt="Foto profesional de Esperanza Castillo" id="foto">
+            </div>
+            <div class="espacio-blanco"></div>
+            <div class="contacto-2">
+                <div class="links"> <a href="https://www.linkedin.com/in/esperanza-castillo-7a9asddasda29417a/" target=”_blank”><i class="fa-brands fa-linkedin"></i> Linkedin: https://www.linkedin.com/in/esperanza-castillo-7a9asddasda29417a/</a></div>
+                <div class="links"> <a href="Esperanza.castillo@example.com" target=”_blank”> <i class="fa-solid fa-envelope"></i> Esperanza.castillo@example.com</a></div>
+                <div class="links"> <a href="011-9999-9999/" target=”_blank”> <i class="fa-solid fa-phone"> </i> 011-9999-9999</a> </div>
+            </div>
+        </div>
+        <div id="nombre"> 
+            <div class="espacio-blanco"></div>
+            <h1> Esperanza Castillo</h1>
+        </div>
+    </div>
+
+    <div class="seccion">
+        <div class="titulo"> 
+            <h2>Resumen profesional 
+                <button id="boton-1" onclick="revelarTexto(1)" > <i class="fa-solid fa-circle-arrow-right"></i></button> 
+            </h2>
+        </div>
+        <div class="descripcion" id="seccion-1">Directora ejecutiva de operaciones, con amplia experiencia en marketing, TI y RRHH, con 
+            experiencia previa en el ambito gastronomico</div>
+    </div>
+    
+    <div class="separador"></div>
+    
+    <div class="seccion">
+        <div class="titulo"> 
+            <h2>Formacion 
+                <button id="boton-2" onclick="revelarTexto(2)"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
+            </h2>
+        </div>
+        <div class="descripcion" id="seccion-2">
+            <div> <em> Bachiller en Economia </em> - <strong>Colegio Nacional de San Isidro</strong></div>
+            <div> <em> Licenciatura en Economia </em>- <strong>Universidad de Buenos Aires </strong></div>
+        </div>
+    </div>
+    
+    <div class="separador"></div>
+    
+    <div class="seccion">
+        <div class="titulo"> 
+            <h2>Experiencia Laboral 
+                <button id="boton-3" onclick="revelarTexto(3)"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
+            </h2>
+        </div>
+        <div class="descripcion" id="seccion-3">
+            <p> <strong> 12/10/2020 - Actualidad: Vicepresidenta Ejecutiva McDonalds - Argentina</strong> </p>
+            <ul>  
+                <li> Direccion de las operaciones relacionadas con la marca (marketing, TI, RR. HH) de mas de 200 establecimientos</li>
+                <li> Supervision de las operaciones de la empresa y de franquicias de toda la region de CABA</li>
+                <li> Evaluacion de la rentabilidad de los procesos de la empresa a fin de determinar la estructura optima para maximizar los beneficios</li>
+            </ul>
+            <p> <strong> 20/05/2012 - 12/10/2020: Vicepresidenta Cafe Roug-Madrid</strong> </p>    
+            <ul> 
+                <li> Direccion de la coordinacion de estragias entre departamentos para consolidar las ventas</li>
+                <li> Desarrollo de relaciones solidas con los franquiciados para elevar los estandares operativos</li>
+                <li> Implementacion de mejoras en los procesos para incrementar la satisfaccion y la fidelidad de los clientes</li>
+            </ul>   
+        </div>
+    </div>
+
+    <div class="separador"></div>
+    
+    <div id="Aptitudes" class="seccion">
+        <div class="titulo">
+            <h2>Aptitudes 
+                <button id="boton-4" onclick="revelarTexto(4)"> <i class="fa-solid fa-circle-arrow-right"></i></button> 
+            </h2>
+        </div>
+        <div class="descripcion" id="seccion-4">
+            <div class="lista">
+                <ul>
+                    <li>Buen manejo de Office</li>
+                    <li>Ingles Avanzado</li>
+                    <li>Liderazgo</li>
+                    <li>Proactividad</li>
+                    <li>Inteligencia Emocional</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Nota: soy consciente de que la indentacion y poner espacio entre los divs en el source no le hace nada al HTML, 
+        pero me gusta como queda mas prolijo-->
+    <script src="script.js"></script>
+</body>
+</html>
